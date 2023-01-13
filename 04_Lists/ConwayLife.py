@@ -1,3 +1,4 @@
+#did this after understanding the example for practice.
 import random, copy, time
 
 WIDTH = 60
@@ -62,7 +63,6 @@ while True:
                 nextCells[x][y] = ' ' #if any cell doesn't have enough neighbours.
              
     time.sleep(0.1) #pause before every cell is printed.
-        
         
     
         
