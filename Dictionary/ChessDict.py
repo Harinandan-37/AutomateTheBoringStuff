@@ -24,7 +24,7 @@ def isValidPiece(board):
             for y in range(6):
                 if piece == pieceCol[x] + pieceList[y]:
                     pieceCount += 1
-    if len(board) <= 32 and pieceCount == len(board): #Most number of places with pieces is 32
+    if len(board) <= 32 and pieceCount == len(board): #Most number of pieces is 32.
         return 1
     return -2
 
