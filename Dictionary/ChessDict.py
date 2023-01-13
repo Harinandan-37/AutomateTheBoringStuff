@@ -9,7 +9,7 @@ def isValidPlace(board):
             for y in range(8):
                 if i == str(x) + squares[str(y)]:
                     placeCount += 1
-    if len(board) <= 32 and placeCount == len(board):
+    if len(board) <= 32 and placeCount == len(board): #Most number of places with pieces is 32
         return 1
     
     return -1
@@ -24,7 +24,7 @@ def isValidPiece(board):
             for y in range(6):
                 if piece == pieceCol[x] + pieceList[y]:
                     pieceCount += 1
-    if len(board) <= 32 and pieceCount == len(board):
+    if len(board) <= 32 and pieceCount == len(board): #Most number of places with pieces is 32
         return 1
     return -2
 
