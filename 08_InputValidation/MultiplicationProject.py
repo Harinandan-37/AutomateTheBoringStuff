@@ -1,25 +1,25 @@
 import random, time
-import pyinputplus as pinp
+from inputimeout import inputimeout
 numberOfQuestions = 10
 correctAnswers = 0
 
 try: 
     for questionNumber in range(numberOfQuestions):
-        num1 = random.randint(0,9)
-        num2 = random.randint(0,9)
+        num1 = random.randint(1,9)
+        num2 = random.randint(1,9)
 
         for i in range(3):
 
-            prompt = input(timeout = 8, limit = 3)
+            prompt = inputimeout(prompt = "#%s: %s x %s = ?\n" % (questionNumber+1, num1, num2), timeout=8)
+
             while True:
                 if not prompt.isdecimal():
-                    prompt = input("#%s: %s x %s = ?\n" % (questionNumber, num1, num2), timeout = 8, limit = 3)
+                    print(str(prompt) + ' is not allowed as response.')
+                    prompt = input("#%s: %s x %s = ?\n" % (questionNumber+1, num1, num2))
                 else:
                     break
 
-                print(str(prompt) + ' is not allowed as response.')
-                
-            if prompt == num1*num2:
+            if int(prompt) == num1*num2:
                 print("Correct!")
                 correctAnswers += 1
                 break
@@ -27,11 +27,19 @@ try:
             else:
                 print("Incorrect!")
             time.sleep(1)
-
+    
     print("Total Score: %s / %s" % (correctAnswers, numberOfQuestions))
+    if correctAnswers == numberOfQuestions:
+        print("Congratulations!! You got a perfect score!!")
 
-except pinp.TimeoutException:
-    print('Out of time!')
+except Exception:
+    prompt = 'Timeover!!'
+    print(prompt)
+    print("Total Score: %s / %s" % (correctAnswers, numberOfQuestions))
+    print("Bye...")
 
-except pinp.RetryLimitException:
-    print('Out of tries!')
+except KeyboardInterrupt:
+    print("Total Score: %s / %s" % (correctAnswers, numberOfQuestions))
+    print("Bye...")
+
+
