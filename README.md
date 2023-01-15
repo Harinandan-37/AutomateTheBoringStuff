@@ -1,5 +1,7 @@
-# amfoss-recruitment-tasks
-# Shrisharanyan Vasu
+# amfoss-standby-task
+
+## Shrisharanyan Vasu
+
 **I am Shrisharanyan Vasu from Chennai, Tamil Nadu, fresher at Amrita Vidya Vishwapeetham(CSE-AI B 2022)**
 **Tasks List**|**Description**|**Status**
 --------------|---------------|---------------
