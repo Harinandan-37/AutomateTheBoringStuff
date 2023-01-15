@@ -1,4 +1,4 @@
-# amfoss-standby-task
+# amFOSS Standby Recruitment Task
 
 ## Shrisharanyan Vasu
 
