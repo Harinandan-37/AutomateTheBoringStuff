@@ -31,10 +31,10 @@ for i in range(len(user)):
     if user[i] == 'ADVERB':
         x = input(f"Enter {user[i].lower()}: ")
         text = text.replace('ADVERB',x,1)
-output_file = open('sample.txt','w')
+output_file = open(Path(path_input)/file_input,'w')
 output_file.write(text)
 output_file.close()
-output_file = open('sample.txt','r')
+output_file = open(Path(path_input)/file_input,'r')
 replaced = output_file.read()
 
 output_file.close()
