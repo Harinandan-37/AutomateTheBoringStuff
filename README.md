@@ -13,4 +13,5 @@ Chapter 2|Ch 2 - Flow Control|Completed
 [Chapter 6](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/06_ManipulatingStrings)|Ch 6 - Manipulating Strings|Completed
 [Chapter 7](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/07_PatternMatching)|Ch 7 - Pattern Matching|RegexStrip left
 [Chapter 8](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/08_InputValidation)|Ch 8 - Input Validation|Completed
+[Chapter 9](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/09_ReadingAndWritingFiles)|Ch 9 - Reading and Writing Files|Completed
 [Chapter 11](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/11_Debugging)|Ch 11 - Debugging|Completed
