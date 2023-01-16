@@ -1,12 +1,12 @@
 import pyinputplus as pinp
 
-breadTypeChoice = pinp.inputMenu(['wheat', 'white', 'sourdough'], prompt = "What type of bread do you want?")
-proteinTypeChoice = pinp.inputMenu(['chicken', 'turkey', 'ham', 'tofu'], prompt = "What type of cheese do you want?")
+breadTypeChoice = pinp.inputMenu(['wheat', 'white', 'sourdough'], prompt = "What type of bread do you want?\n")
+proteinTypeChoice = pinp.inputMenu(['chicken', 'turkey', 'ham', 'tofu'], prompt = "What type of cheese do you want?\n")
 
 cheeseChoice = pinp.inputYesNo("Do you want cheese?")
 
 if cheeseChoice.lower() == 'yes':
-    cheeseTypeChoice = pinp.inputMenu(['cheddar', 'Swiss', 'mozzarella'], prompt = "What type of cheese do you want?")
+    cheeseTypeChoice = pinp.inputMenu(['cheddar', 'Swiss', 'mozzarella'], prompt = "What type of cheese do you want?\n")
 
 mayoChoice = pinp.inputYesNo("Do you want Mayo?")
 mustardChoice = pinp.inputYesNo("Do you want mustard?")
@@ -22,7 +22,7 @@ tomatoPrice = 7
 lettucePrice = 3
 prepFee = 200
 
-number = pinp.inputNum("No. of sandwiches you want of this style: ")
+number = pinp.inputInt("No. of sandwiches you want of this style: ", min = 1)
 
  
 if breadTypeChoice == 'wheat':
