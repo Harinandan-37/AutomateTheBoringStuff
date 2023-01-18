@@ -14,5 +14,5 @@ Chapter 2|Ch 2 - Flow Control|Completed
 [Chapter 7](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/07_PatternMatching)|Ch 7 - Pattern Matching|Completed
 [Chapter 8](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/08_InputValidation)|Ch 8 - Input Validation|Completed
 [Chapter 9](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/09_ReadingAndWritingFiles)|Ch 9 - Reading and Writing Files|Completed
-[Chapter 10](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/10_OrganizingFiles)|Ch 10 - Organizing Files|2 Practice projects left
+[Chapter 10](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/10_OrganizingFiles)|Ch 10 - Organizing Files|1 Added Challenge left
 [Chapter 11](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/11_Debugging)|Ch 11 - Debugging|Completed
