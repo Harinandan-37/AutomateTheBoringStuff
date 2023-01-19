@@ -7,14 +7,12 @@ pattern = re.compile(r'^(.*?)(\d+)(.*?)$')
 
 file_num = []
 
-
 for folderName, subFolders, filenames in os.walk(user_folder):
     for filename in filenames:
         sample = pattern.search(filename)
         num = int(sample.group(2))
         file_num.append(num)
         
-
 file_num.sort()
 
 print(file_num)
