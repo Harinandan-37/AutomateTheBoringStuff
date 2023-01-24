@@ -1,0 +1,33 @@
+1674334372177	geckodriver	INFO	Listening on 127.0.0.1:48817
+1674334373158	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileFzuOEK"
+Gtk-Message: 02:22:53.172: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674334373658	Marionette	INFO	Marionette enabled
+1674334373668	Marionette	INFO	Listening on port 34603
+Read port: 34603
+1674334373816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFzuOEK/search.json.mozlz4", (void 0)))
+1674334658855	geckodriver	INFO	Listening on 127.0.0.1:51209
+1674334659789	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilem3ZrI0"
+Gtk-Message: 02:27:39.803: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674334660275	Marionette	INFO	Marionette enabled
+1674334660278	Marionette	INFO	Listening on port 40293
+Read port: 40293
+1674334660392	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem3ZrI0/search.json.mozlz4", (void 0)))
+1674334670674	Marionette	INFO	Stopped listening on port 40293
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1674334691411	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1674334716883	Marionette	INFO	Stopped listening on port 34603
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
