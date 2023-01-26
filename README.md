@@ -20,6 +20,7 @@ Chapter 2|Ch 2 - Flow Control|Completed
 [Chapter 13](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/13_WorkingWithExcel)|Ch 13 - Working With Excel|Completed
 [Chapter 14](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/14_WorkingWithGoogleSheets)|Ch 14 - Working With Google Sheets|Incomplete
 [Chapter 15](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/15_WorkingWithPDFAndWordDocuments)|Ch 15 - Working With Pdfs and Docx|Completed
+[Chapter 16](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/15_WorkingWithCSVAndJSON)|Ch 16 - Working With CSV and JSON Files|Completed
 
 
 
