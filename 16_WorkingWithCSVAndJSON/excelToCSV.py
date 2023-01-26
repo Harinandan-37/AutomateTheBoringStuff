@@ -12,12 +12,11 @@ for files in os.listdir(path):
     filename = filename.replace('.xlsx','')
     wb = openpyxl.load_workbook(files)
 
-    for sheets in wb.sheetnames:
-
-        csvName = filename + '_' + sheets + '.csv'
+    for sheet in wb.worksheets:
+        csvName = filename + '_' + str(sheet.title) + '.csv'
         csvFile = open(csvName, 'w', newline='')
         csvWriter = csv.writer(csvFile)
-        sheet = wb.active
+
 
         for row in range(1,sheet.max_row+1):
             lst = []
