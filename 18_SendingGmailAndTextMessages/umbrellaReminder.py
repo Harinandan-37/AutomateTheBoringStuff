@@ -9,8 +9,8 @@ while True:
     if (morning.hour, morning.minute) == (6, 30):
         break
 
-accountSID = 'ACacf3d25ac78c754820d3e293fb551b0e'
-authToken = '28ac1739b16f8c97e6d2cd50eb04e2f9'
+accountSID = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+authToken = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 twilioCli = Client(accountSID, authToken)
 myTwilioNumber = '+19854016625'
