@@ -18,7 +18,7 @@ Chapter 2|Ch 2 - Flow Control|Completed
 [Chapter 11](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/11_Debugging)|Ch 11 - Debugging|Completed
 [Chapter 12](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/12_WebScraping)|Ch 12 - Web Scraping|Incomplete
 [Chapter 13](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/13_WorkingWithExcel)|Ch 13 - Working With Excel|Completed
-[Chapter 14](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/14_WorkingWithGoogleSheets)|Ch 14 - Working With Google Sheets|Incomplete
+[Chapter 14](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/14_WorkingWithGoogleSheets)|Ch 14 - Working With Google Sheets|Completed
 [Chapter 15](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/15_WorkingWithPDFAndWordDocuments)|Ch 15 - Working With Pdfs and Docx|Completed
 [Chapter 16](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/16_WorkingWithCSVAndJSON)|Ch 16 - Working With CSV and JSON Files|Completed
 [Chapter 17](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/17_SchedulingAndLaunchingPrograms)|Ch 17 - Scheduling and Launching Programs|Completed
