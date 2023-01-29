@@ -1,7 +1,7 @@
 import requests, bs4
 import os
 
-url = 'https://www.yahoo.com/news/'
+url = 'https://www.google.com'
 res = requests.get(url)
 res.raise_for_status()
 
@@ -17,7 +17,8 @@ path = os.path.join(cwd,'links')
 i = 1
 
 for link in links:
-    pathc = path + '/' + str(i) + '.txt'
+    linkfile = str(i) + '.txt'
+    pathc = os.path.join(path,linkfile)
     link = link.get('href')
     file1 = open(pathc,'wb')
     try:
@@ -27,8 +28,6 @@ for link in links:
         else:
             print( 'Working Link: ' + link)
             for chunk in response.iter_content(100000):
-                print("\n\n\nreached here\n\n\n")
-                print(chunk)
                 file1.write(chunk)
             i+=1
             continue

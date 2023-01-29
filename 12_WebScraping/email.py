@@ -1,8 +1,7 @@
 #usage: python3 email.py start
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-# from selenium.webdriver import Firefox
-'''
+
 import sys
 
 check = sys.argv[-1]
@@ -16,14 +15,14 @@ email_subject = input("Email subject: \n")
 email_body = input("Email body: \n")
 
 
-browser = webdriver.Firefox()
+browser = webdriver.Chrome()
 browser.get('http://mail.google.com')
 
 login_email = browser.find_element_by_id('identifierId')
 login_email.send_keys(email_id)
 id_next = browser.find_element_by_id('identifierNext')
 id_next.click()
-
+#there is something wrong here..
 login_pwd = browser.find_element_by_name('Passwd')
 login_pwd.send_keys(email_pwd)
 pwd_next = browser.find_element_by_id('passwordNext')
@@ -45,4 +44,3 @@ print("\nEmail Sent\n")
 
 
 
-'''
