@@ -24,6 +24,7 @@ Chapter 2|Ch 2 - Flow Control|Completed
 [Chapter 17](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/17_SchedulingAndLaunchingPrograms)|Ch 17 - Scheduling and Launching Programs|Completed
 [Chapter 18](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/18_SendingGmailAndTextMessages)|Ch 18 - Sending Gmail and Text Messages|2 more projects left
 [Chapter 19](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/19_ManipulatingImages)|Ch 19 - Manipulating Images|Completed
+[Chapter 20](https://github.com/spellsharp/AutomateTheBoringStuff/tree/master/20_ControllingKeyboardAndMouseWithGUIAutomation)|Ch 20 - Controlling Keyboard and Mouse with GUI Automation|Completed
 
 
 
