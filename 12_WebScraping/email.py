@@ -77,7 +77,7 @@ send[0].click()
 
 
 print("\nEmail Sent\n")
-time.sleep(1000)
+
 
 
 
