@@ -11,3 +11,4 @@
 1675194400081	geckodriver	INFO	Listening on 127.0.0.1:43589
 1675194400222	mozrunner::runner	INFO	Running command: "/snap/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilePBX7WD"
 1675194483816	geckodriver	INFO	Listening on 127.0.0.1:53461
+1675275713135	geckodriver	INFO	Listening on 127.0.0.1:40975
